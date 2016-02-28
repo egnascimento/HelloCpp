@@ -14,7 +14,7 @@ public:
 	Asker();
 	virtual ~Asker();
 
-	int Name();
+	void Name();
 };
 
 #endif /* ASKER_H_ */

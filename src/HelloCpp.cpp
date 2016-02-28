@@ -7,9 +7,15 @@
 //============================================================================
 
 #include <iostream>
+#include "Asker.h"
 using namespace std;
 
 int main() {
+	Asker dialog;
+
 	cout << "!!!Hello World!!!" << endl; // prints !!!Hello World!!!
+
+	dialog.Name();
+
 	return 0;
 }

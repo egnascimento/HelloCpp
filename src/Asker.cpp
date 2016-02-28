@@ -15,16 +15,16 @@ using namespace std;
 
 Asker::Asker() {
 	// TODO Auto-generated constructor stub
+	cout << "Constructing class..." << endl;
 
 }
 
 Asker::~Asker() {
 	// TODO Auto-generated destructor stub
+	cout << "Destructing class..." << endl;
 }
 
-Asker::Name() {
+void Asker::Name() {
 	cout << "What is your name?" << endl;
-
-	return 0;
 
 }

@@ -4,12 +4,15 @@
 
 # Add inputs and outputs from these tool invocations to the build variables 
 CPP_SRCS += \
+../src/Asker.cpp \
 ../src/HelloCpp.cpp 
 
 OBJS += \
+./src/Asker.o \
 ./src/HelloCpp.o 
 
 CPP_DEPS += \
+./src/Asker.d \
 ./src/HelloCpp.d 
 
 
